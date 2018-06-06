@@ -26,7 +26,7 @@ namespace WebApplication1.Controllers
         {
             ViewData["Message"] = "Your contact page.";
 
-            return View();
+            return null;
         }
 
         public IActionResult Error()

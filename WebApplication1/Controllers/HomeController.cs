@@ -25,7 +25,7 @@ namespace WebApplication1.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
-
+            //test changes
             return View();
         }
 
